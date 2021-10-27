@@ -1,5 +1,6 @@
 # CLR Method (Cyclical learning rate)
 [Cyclical Learning Rates for Training Neural Networks (Leslie N. Smith)](https://arxiv.org/pdf/1506.01186.pdf)
+
 Bài báo chứng minh một hiện tượng đáng ngạc nhiên là việc thay đổi learning rate trong quá trình traning thì có lợi về tổng thể. CLR cũng giảm sự cần thiết của việc tuning learning rate nhưng vẫn đạt đến gần giá trị tối ưu. Hơn thế nữa không giống như adaptive learning rate (AdaGrad, Adam, RMSProp...), CLR không yêu cầu tính toán thêm.
 
 ## 1. Cyclical learning rate
