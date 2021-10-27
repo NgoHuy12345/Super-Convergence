@@ -11,8 +11,8 @@ Phương pháp tăng giảm learning rate đơn giản, có hiệu quả tương
 **Triangular2**:  Tương tự **Triangular** nhưng khoảng cách giữa 2 boundary sẽ giảm đi một nửa sau mỗi chu kỳ.
  
 Learning rate sẽ tăng linear từ **baseLr** đến **maxLr** trong khoảng thời gian  *stepsize* (tính bằng Iterations) và cũng giảm Linear trong khoảng thời gian tương tự.
-1 lượt tăng và 1 lượt giảm như vậy gọi là 1 chu kỳ (cyclical).
-Accuracy được chỉ ra là đạt đỉnh tại cuối mỗi cyclical
+1 lượt tăng và 1 lượt giảm như vậy gọi là 1 chu kỳ (cycle).
+Accuracy được chỉ ra là đạt đỉnh tại cuối mỗi cycle
 ## 2. How can one estimate a good value for the cycle length?
 Các thí nghiệm chỉ ra rằng *stepsize* khoảng 2-10 lần số Iterations của mỗi epoch là hợp lý.
 ## 3. How can one estimate reasionable minimum and maximum boundary values?
